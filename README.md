@@ -1,1 +1,1 @@
-# General Purpose ERC Event Banner Website
+# General Purpose ERC Event Banner
