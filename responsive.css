@@ -17,6 +17,14 @@
         line-height: 1;
     }
 
+    h5 {
+        position: relative;
+        font-size: 3.5vw;
+        color: #000;
+        font-weight: 100;
+        line-height: 1.4;
+    }
+
     p {
         font-size: 17px;
         font-family: 'Questrial', sans-serif;
@@ -49,6 +57,35 @@
         left:85%;
         z-index: 3;
         width: 15vw;
+    }
+    #prompt {
+        position: relative;
+        top: 50px;
+    }
+
+    #prompt-text{
+        position: relative;
+        top: 100px;
+    }
+
+    #linker {
+        position: relative;
+        top: 0px;
+      }
+    
+      .card {
+        max-width: 200px; 
+        max-height: 50px;
+        z-index: 3;
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+    }
+    
+    #form{
+        position: relative;
+        width: 30vw;
+        top: 5px;
     }
 }
 
@@ -100,5 +137,36 @@
         left:85%;
         z-index: 3;
         width: 10vw;
+    }
+
+    #prompt {
+        position: relative;
+        top: 5vh;
+    }
+    
+    #prompt-text{
+        position: relative;
+        top: 10vh;
+    }
+    
+    #linker {
+        position: relative;
+        top: 0vh;
+      }
+    
+      .card {
+        max-width: 300px; 
+        max-height: 70px;
+        z-index: 3;
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        border-radius: 10px;
+    }
+    
+    #form{
+        position: relative;
+        width: 30vw;
+        top: 3px;
     }
 }

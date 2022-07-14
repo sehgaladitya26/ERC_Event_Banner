@@ -47,15 +47,33 @@
                     <img src="assets/jugaadonics.png" alt="logo" class="logo" id="jugaad">
                 </div>
             </div>
+
             <div id="prompt">
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-xl-5">
-                        <h3>First Prompt in: </h3>
+                <div class="row justify-content-between align-items-center" id="linker">
+                    <div class="card col-12 rounded-5" href="https://forms.office.com/r/mmKp7jBCm5">
+                        <div class="row g-0 rounded-3">
+                            <div class="col-4">
+                                <img src="./assets/form.png" class="img-fluid rounded-start" alt="..." id="form">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">First Prompt</h5>
+                                </div>
+                            </div>
+                            <a href="https://forms.office.com/r/mmKp7jBCm5" class="stretched-link"></a>
+                        </div>
                     </div>
                 </div>
-                <div class="row justify-content-between align-items-center">
-                    <div class="col-xl-12">
-                        <h1 id="demo"></h1>
+                <div id="prompt-text">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-xl-5">
+                            <h3>Second Prompt in: </h3>
+                        </div>
+                    </div>
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-xl-12">
+                            <h1 id="demo"></h1>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,7 +84,7 @@
 
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("July 13, 2022 15:00:00").getTime();
+        var countDownDate = new Date("July 16, 2022 15:00:00").getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function () {
@@ -90,7 +108,7 @@
             // If the count down is finished, write some text
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
+                document.getElementById("demo").innerHTML = "Started";
             }
         }, 1000);
     </script>
@@ -110,6 +128,7 @@
 
         ScrollReveal().reveal('.col-xl-12', { delay: 100, origin: 'bottom', distance: '40px' });
         ScrollReveal().reveal('.col-xl-5', { delay: 400, origin: 'left', distance: '40px' });
+        ScrollReveal().reveal('.card', { delay: 400, origin: 'left', distance: '40px' });
         ScrollReveal().reveal('.fix', { delay: 100, origin: 'bottom', distance: '10px' });
     </script>
     <script src="home.js"></script>

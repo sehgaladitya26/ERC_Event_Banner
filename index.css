@@ -31,6 +31,13 @@ h3 {
     font-family: 'Questrial', sans-serif;
 }
 
+h5 {
+    font-family: 'Questrial', sans-serif;
+    color: #000;
+    font-weight: 100;
+    line-height: 1.8;
+}
+
 p {
     font-size: 17px;
     font-family: 'Questrial', sans-serif;
@@ -97,15 +104,41 @@ section {
     margin: auto;
 }
 
-#prompt {
-    position: relative;
-    top: 10vh;
-}
-
 .fix{
     position:fixed;
     bottom:10px;
     left:95%;
     z-index: 3;
     width: 4vw;
+}
+
+#prompt {
+    position: relative;
+    top: 0vh;
+}
+
+#prompt-text{
+    position: relative;
+    top: 0vh;
+}
+
+#linker {
+    position: relative;
+    top: 0vh;
+  }
+
+  .card {
+    max-width: 300px; 
+    max-height: 70px;
+    z-index: 3;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+    border-radius: 20px;
+}
+
+#form{
+    position: relative;
+    width: 30vw;
+    top: 3px;
 }
